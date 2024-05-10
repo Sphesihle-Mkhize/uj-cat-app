@@ -1,0 +1,62 @@
+body {
+    background-color: #1522b4 ;
+    font-style: italic;
+    
+   
+}
+
+.cats {
+    background-color: #8288d3;
+    margin: 0.5em;
+    padding: 1em;
+    border: 1px solid #8CB8E9;
+    border-radius: 1em;
+    flex: 1;
+   font-style: oblique;   
+}
+
+/*.form { 
+    background-color: #8288d3 ;
+    border: 1px solid #8CB8E9;
+    border-radius: 1em;
+    width: 97%;
+    flex: 1;
+}*/
+
+@media(min-width: 960px){
+  .allcats{
+    display: flex;
+    flex-wrap: wrap;
+   }
+  
+}
+
+
+element{
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+button{
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 2em;
+    border: 1px solid #062344;
+    font-style: oblique;
+    
+}
+input{
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 2em;
+    border: 1px solid #04203f ;
+    font-style: oblique;
+}
+fieldset{
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 2em;
+    border: 1px solid #04203f ;
+    font-style: oblique;
+}
