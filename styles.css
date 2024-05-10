@@ -1,8 +1,8 @@
 body {
-    background-color: #1522b4 ;
+    background-color: #1522b4;
     font-style: italic;
-    
-   
+
+
 }
 
 .cats {
@@ -12,51 +12,116 @@ body {
     border: 1px solid #8CB8E9;
     border-radius: 1em;
     flex: 1;
-   font-style: oblique;   
+    font-style: oblique;
+
+    
+
+}
+
+
+@media (min-width: 1200px) {
+  .allcats{
+    display:flex;
+    
+  }
 }
 
 /*.form { 
-    background-color: #8288d3 ;
-    border: 1px solid #8CB8E9;
-    border-radius: 1em;
-    width: 97%;
-    flex: 1;
+        background-color: #8288d3 ;
+        border: 1px solid #8CB8E9;
+        border-radius: 1em;
+        width: 97%;
+        flex: 1;
+    }*/
+
+/* .allcats {
+    display: flex;
+
+} */
+
+/* @media(min-width: 414px) {
+    .allcats {
+        display: grid;
+
+    }
+} */
+
+/*@media(min-width: 960px) {
+    .container{
+        display: flex;
+        
+      }
 }*/
 
-@media(min-width: 960px){
-  .allcats{
-    display: flex;
-    flex-wrap: wrap;
-   }
-  
+@media (max-width: 300px) {
+
+    /* Styles for screens smaller than 768px (e.g., smartphones) */
+    .container {
+        width: 100%;
+        /* Full width on smaller screens */
+        padding: 10px;
+        /* Add padding for readability */
+    }
+
+
+}
+
+@media (min-width: 768px){
+
+    /* Styles for screens between 768px and 1024px (e.g., tablets) */
+    .container {
+        width: 90%;
+        /* 90% width for tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* Styles for screens larger than 1024px (e.g., computers) */
+    .container {
+        width: 80%;
+        /* 80% width for larger screens */
+    }
 }
 
 
-element{
+img {
+    max-width: 100%;
+    /* Make images responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Maintain aspect ratio */
+
+element {
     padding: 1em;
     margin: 1em;
     border-radius: 1em;
 }
 
-button{
+button {
     padding: 0.5em;
     margin: 0.5em;
     border-radius: 2em;
     border: 1px solid #062344;
     font-style: oblique;
-    
 }
-input{
+
+input {
     padding: 0.5em;
     margin: 0.5em;
     border-radius: 2em;
-    border: 1px solid #04203f ;
+    border: 1px solid #04203f;
     font-style: oblique;
+
 }
-fieldset{
+
+fieldset {
     padding: 0.5em;
     margin: 1em;
     border-radius: 2em;
-    border: 1px solid #04203f ;
+    border: 1px solid #04203f;
     font-style: oblique;
+
 }
